@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Weather Podcast</title>
+  </head>
+  <body onload="DefaultScreen()">
+    <div class="header">
+      <h1>5 Days Weather Podcast</h1>
+      <p>City: <input type="text" id="cityInput" /></p>
+      <button type="button" onclick="GetInfo()">Search</button>
+      <h2 id="cityName"></h2>
+    </div>
+
+    <div>
+      <div id="weather-display">
+        <div>
+          <p id="day1"></p>
+          <div class="image">
+            <img src="dots.png" id="img1" />
+          </div>
+          <p id="day1Temp"></p>
+          <p id="day1Humidity"></p>
+          <p id="day1Windspeed"></p>
+        </div>
+        <div>
+          <p id="day2"></p>
+          <div class="image">
+            <img src="dots.png" id="img2" />
+          </div>
+          <p id="day2Temp"></p>
+          <p id="day2Humidity"></p>
+          <p id="day2Windspeed"></p>
+        </div>
+        <div>
+          <p id="day3"></p>
+          <div class="image">
+            <img src="dots.png" id="img3" />
+          </div>
+          <p id="day3Temp"></p>
+          <p id="day3Humidity"></p>
+          <p id="day3Windspeed"></p>
+        </div>
+        <div>
+          <p id="day4"></p>
+          <div class="image">
+            <img src="dots.png" id="img4" />
+          </div>
+          <p id="day4Temp"></p>
+          <p id="day4Humidity"></p>
+          <p id="day4Windspeed"></p>
+        </div>
+        <div>
+          <p id="day5"></p>
+          <div class="image">
+            <img src="dots.png" id="img5" />
+          </div>
+          <p id="day5Temp"></p>
+          <p id="day5Humidity"></p>
+          <p id="day5Windspeed"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
